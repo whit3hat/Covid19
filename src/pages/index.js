@@ -1,11 +1,14 @@
 import React from 'react';
 import CardBody from '../components/Card';
 
-const Index = props => {
+function Index() {
     return (
-        <CardBody />
+        <div>
+            <h1>Title</h1>
+            <CardBody />
+        </div>
     );
 
-};
+}
 
 export default Index;
