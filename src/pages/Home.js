@@ -6,10 +6,20 @@ import {Container, Row, Col } from 'reactstrap';
 function Home() {
     return (
         <div>
-            <Nav />
-            <Container className='themed-container'>
-            <StateStats />
-           </Container>
+            <Container>
+                <Nav />
+                <Row>
+                    <Col xs='12' sm='12' lg='4'> 
+                      <StateStats />
+                      </Col>
+                      <Col xs='12' sm='12' lg='4'> 
+                      <StateStats />
+                      </Col>
+                      <Col xs='12' sm='12' lg='4'> 
+                      <StateStats />
+                    </Col>
+                </Row>
+            </Container>
         </div>
     );
 
