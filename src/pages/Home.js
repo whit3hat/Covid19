@@ -1,10 +1,11 @@
 import React from 'react';
 import StateStats from '../components/Card';
+import Nav from '../components/Nav';
 
 function Home() {
     return (
         <div>
-            <h1>Title</h1>
+            <Nav />
             <StateStats />
         </div>
     );
